@@ -34,7 +34,11 @@ tail -n5
 mv source destination command is used (the file is moved to another directory)
 
 12. Can cp copy a directory? If yes, what option is generally required?
-Yes files and directory both are copied
+Yes files and directory both are copied.
+cp -r source_directory destination_directory
+Explanation:
+cp → copy
+-r → recursively copy the directory and its contents
 
 13. where do you find system log files? which directory?
 /var/log
