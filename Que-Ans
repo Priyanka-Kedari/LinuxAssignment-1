@@ -1,0 +1,40 @@
+1.What is the difference between mkdir and touch?
+mkdir - creates directory , touch - creates a empty
+
+2. What is the difference between cp and mv?
+cp - creates a copy while keeping the original
+mv - moves or rename a file or directory
+
+3. What happens when you use cat > file.txt and the file already exists?
+cat > file.txt - erases the previous data and adds new data
+
+4. What happens when you use cat >> file.txt and the file already exists?
+cat >> keeps the previous data and also adds new data
+
+5. What does Ctrl+D do when using cat > file.txt?
+done with editing and then saves the file or changes
+
+6. What is the difference between cat and tac?
+cat displays the data in forward straight mode 1st line 1st
+tac displays data in reverse mode last line 1st
+
+7. What is the purpose of head?
+shows first 10 lines of the file
+
+8. What is the purpose of tail?
+shows last 10 line of the file
+
+9. How do you display only the first 5 lines of a file?
+head -n5 
+
+10. How do you display only the last 5 lines of a file?
+tail -n5
+
+11. What happens if you use mv to move a file to another directory?
+mv source destination command is used (the file is moved to another directory)
+
+12. Can cp copy a directory? If yes, what option is generally required?
+Yes files and directory both are copied
+
+13. where do you find system log files? which directory?
+/var/log
